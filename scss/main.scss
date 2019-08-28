@@ -1,6 +1,33 @@
-$color: steelblue;
+@import "config";
+
+// general style
+
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
-  background: $color;
   font-family: "Dosis", sans-serif;
+  line-height: 1.6;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-color;
+}
+
+ul {
+  text-decoration: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
 }
