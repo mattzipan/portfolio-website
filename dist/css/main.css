@@ -58,3 +58,10 @@ img {
   background: url("../img/backpack.jfif") no-repeat center right/cover;
   color: #fff;
   height: 100vh; }
+
+#header .header-content {
+  text-align: center;
+  padding-top: 20%; }
+  #header .header-content h1 {
+    font-size: 4rem;
+    line-height: 1.2; }
