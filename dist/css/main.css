@@ -141,3 +141,7 @@ img {
       font-weight: bold; }
   #home-b .stats div {
     padding: 3rem 0; }
+    #home-b .stats div:nth-child(odd) {
+      background: #f4f4f4; }
+    #home-b .stats div:nth-child(even) {
+      background: #ccc; }
