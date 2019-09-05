@@ -194,6 +194,7 @@ img {
   }
 }
 //  About Section
+//  About A
 #about {
   &-a {
     .about-info {
@@ -226,6 +227,21 @@ img {
     .award-3 .fas {
       color: $main-color;
       margin: 1rem;
+    }
+  }
+  //  About B
+  &-b {
+    overflow: hidden;
+    height: 20px;
+    background: $medium-color;
+    border-radius: 5px;
+    margin-bottom: 0.3rem;
+
+    div {
+      height: 100%;
+      color: #fff;
+      text-align: center;
+      background: $main-color;
     }
   }
 }

@@ -247,6 +247,18 @@ img {
   color: #ffbc00;
   margin: 1rem; }
 
+#about-b {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.3rem; }
+  #about-b div {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #ffbc00; }
+
 #main-footer {
   background: #333;
   color: #fff;
