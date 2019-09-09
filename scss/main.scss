@@ -252,7 +252,7 @@ img {
   &-c {
     .about-logos {
       display: grid;
-      grid-template-columns: repeat (4, 1fr);
+      grid-template-columns: repeat (, 1fr);
       grid-gap: 2rem;
 
       img {
