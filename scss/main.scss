@@ -32,17 +32,14 @@ h4 {
 img {
   width: 100%;
 }
-Logo
-
-#logo {
+Logo #logo {
   width: 70px;
   height: 70px;
   color: #fff;
   text-transform: uppercase;
 }
 
-Main Nav
-#main-nav {
+main nav #main-nav {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
@@ -114,6 +111,7 @@ Main Nav
       }
     }
   }
+
   //  Home section B
   &-b {
     .stats {
