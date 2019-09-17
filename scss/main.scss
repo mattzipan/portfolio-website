@@ -11,7 +11,7 @@
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
-  background: #333;
+  background: #fff;
 }
 
 a {
@@ -32,14 +32,15 @@ h4 {
 img {
   width: 100%;
 }
-Logo #logo {
+// Logo
+#logo {
   width: 70px;
   height: 70px;
   color: #fff;
   text-transform: uppercase;
 }
-
-main nav #main-nav {
+// main nav
+#main-nav {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
@@ -266,7 +267,7 @@ main nav #main-nav {
   &-d {
     .testimonials {
       display: grid;
-      grid-template-columns: repeat (4, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       grid-gap: 0.5rem;
 
       ul {
