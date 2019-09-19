@@ -97,7 +97,7 @@ input[class^="btn-"]:hover {
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
-  background: #ccc; }
+  background: #fff; }
 
 a {
   text-decoration: none;
@@ -116,7 +116,8 @@ img {
 
 #logo {
   width: 70px;
-  height: 70px; }
+  height: 70px;
+  color: #fff; }
 
 #main-nav {
   display: flex;
