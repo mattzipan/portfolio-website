@@ -77,7 +77,7 @@ img {
   &-home {
     background: $bg-image no-repeat center right / cover;
     height: 100vh;
-    color: #fff;
+    // color: #fff;
 
     // Header Content
     .header-content {
@@ -261,6 +261,7 @@ img {
 
       img {
         width: 70%;
+        align-self: center;
       }
     }
   }
